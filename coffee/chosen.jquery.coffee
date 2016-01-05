@@ -19,7 +19,7 @@ $.fn.extend({
 
 })
 
-class Chosen extends AbstractChosen
+class window.Chosen extends window.AbstractChosen
 
   setup: ->
     @form_field_jq = $ @form_field
